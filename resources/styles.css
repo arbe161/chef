@@ -1,0 +1,24 @@
+body {
+    background-color: aqua;
+    display: flex;
+    
+}
+
+#content {
+    margin: 0 auto;
+    width: 1000px;
+    background-color: blanchedalmond;
+}
+
+.header {
+    display: flex;
+    margin: 0 auto;
+    width: 300px;
+    background-color: red;
+    justify-content: space-around;
+
+}
+h1 {
+    width: 200px;
+
+}
