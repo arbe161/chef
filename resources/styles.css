@@ -8,6 +8,10 @@ body {
     margin: 0 auto;
     width: 1000px;
     background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
@@ -16,9 +20,45 @@ body {
     width: 300px;
     background-color: red;
     justify-content: space-around;
+    text-align: center;
 
 }
-h1 {
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.box {
+    margin: 20px;
+    outline-style: solid;
+    outline-color: purple;
+}
+
+.ingredients {
+    flex-grow: 2;
+    flex-basis:200px;
+    height: 400px;
+}
+
+.recipe-image {
+    flex-grow: 1;
+    flex-basis: 150px;
+    height: 400px;
+}
+
+.recipe-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.steps {
+    width: 800px;
+    height: 400px;
+}
+
+.header h1 {
     width: 200px;
 
 }
+
